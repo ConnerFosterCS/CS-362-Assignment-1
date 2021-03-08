@@ -10,3 +10,9 @@ def fizzbuzz(num):
     return "Buzz"
   else:
     return num
+
+if __name__ == '__main__':
+  num = 0
+  while num <= 100:
+    print(fizzbuzz(num))
+    num += 1
